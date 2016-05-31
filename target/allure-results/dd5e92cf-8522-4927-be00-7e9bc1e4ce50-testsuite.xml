@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1464721671304" stop="1464721733651" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Поиск тура</name>
+    <title>Поиск тура</title>
+    <test-cases>
+        <test-case start="1464721671805" stop="1464721671812" status="passed">
+            <name>* Открыть страницу 'Поиск и бранирование туров'</name>
+            <title>* Открыть страницу 'Поиск и бранирование туров'</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Tanya"/>
+                <label name="thread" value="3732@Tanya.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Переход на страницу" value="http://sletat.ru" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+        <test-case start="1464721706675" stop="1464721706675" status="passed">
+            <name>* Установить критерии</name>
+            <title>* Установить критерии</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Tanya"/>
+                <label name="thread" value="3732@Tanya.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Введенные критерии" value="" kind="environment-variable"/>
+                <parameter name="From" value="Омск" kind="environment-variable"/>
+                <parameter name="To" value="Вьетнам" kind="environment-variable"/>
+                <parameter name="Adults" value="1" kind="environment-variable"/>
+                <parameter name="Date_Start" value="01.07.2016" kind="environment-variable"/>
+                <parameter name="Date_Finish" value="15.07.2016" kind="environment-variable"/>
+                <parameter name="Children" value="0" kind="environment-variable"/>
+                <parameter name="Age" value="2" kind="environment-variable"/>
+                <parameter name="Food" value="AI" kind="environment-variable"/>
+                <parameter name="Night_Min" value="7" kind="environment-variable"/>
+                <parameter name="Night_Max" value="10" kind="environment-variable"/>
+                <parameter name="Rating" value="Любой" kind="environment-variable"/>
+                <parameter name="Beach_Line" value="1" kind="environment-variable"/>
+                <parameter name="Category" value="2" kind="environment-variable"/>
+                <parameter name="Price_From" value="60000" kind="environment-variable"/>
+                <parameter name="Currency" value="RUB" kind="environment-variable"/>
+                <parameter name="Ticket" value="1" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Скрыть" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="31.05.16 - 07.06.16" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="1" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="15" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="10" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="2" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Установлено значение в элемент" value="60000" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Доп. фильтры" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Любой" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Установлено значение в элемент" value="Омск" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Москва" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Доп. фильтры" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Первая линия" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Установлено значение в элемент" value="60000" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="7" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="RUB" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="1" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Установлено значение в элемент" value="Вьетнам" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="Вьетнам" kind="environment-variable"/>
+                <parameter name="Критерий Chidren" value="0 проигнорирован, так как введены не все значения возраста детей." kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="7" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="AI" kind="environment-variable"/>
+                <parameter name="Нажатие на элемент" value="BB" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+        <test-case start="1464721719772" stop="1464721719773" status="passed">
+            <name>* Поиск  и вывод результата</name>
+            <title>* Поиск  и вывод результата</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Tanya"/>
+                <label name="thread" value="3732@Tanya.main(1)"/>
+            </labels>
+            <parameters>
+                <parameter name="Нажатие на элемент" value="Найти" kind="environment-variable"/>
+                <parameter name="Название курорта" value="Нячанг" kind="environment-variable"/>
+                <parameter name="Страна" value="" kind="environment-variable"/>
+                <parameter name="Стоимость" value="60 543RUB" kind="environment-variable"/>
+                <parameter name="Название отеля" value="Ha Thanh Hotel" kind="environment-variable"/>
+                <parameter name="Количество звезд" value="2" kind="environment-variable"/>
+                <parameter name="Туроператор" value="Этот тур предоставлен туроператором Anex" kind="environment-variable"/>
+                <parameter name="Количество ночей" value=", 8 ночей" kind="environment-variable"/>
+            </parameters>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Поиск тура"/>
+        <label name="feature" value="Тестовые задания стажерам"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

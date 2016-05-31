@@ -1,0 +1,14 @@
+pages\BranchesAndATMsPage.class
+stepDefinitions\ChooseTravelTourStep.class
+pages\СurrencyСonversionPage.class
+ru\markelov\app\AllureRunListener$2.class
+ru\markelov\app\AllureRunListener.class
+pages\InsuranceTravelPage.class
+pages\AnyPage.class
+stepDefinitions\CommonStepDefinitionsTest3.class
+ru\markelov\app\App.class
+ru\markelov\app\AllureRunListener$1.class
+stepDefinitions\CommonStepDefinitions.class
+pages\ChooseTravelTourPage.class
+lib\Init.class
+stepDefinitions\CommonStepDefinitionsTest2.class
